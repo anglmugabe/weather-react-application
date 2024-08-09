@@ -1,19 +1,12 @@
 import "./App.css";
+import Weather from "./Weather.js";
 
 export default App;
 
 function App() {
 	return (
 		<div className="App">
-			<div>
-				<button
-					type="button"
-					class="btn btn-dark"
-				>
-					Dark
-				</button>
-			</div>
-			<h1>Weather Application</h1>
+			<Weather />
 			<footer>
 				This website was coded by{" "}
 				<a
